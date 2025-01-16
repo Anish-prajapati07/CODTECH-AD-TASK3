@@ -105,6 +105,10 @@ d)	Subdomain enumeration.
 
 3.	Add support for scanning networks with multiple hosts.
 
+# OUTPUT
+
+![image](https://github.com/user-attachments/assets/4a904ab0-5c05-4890-8ff6-9811b4e36d13)
+
 
 
 
