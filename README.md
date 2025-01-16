@@ -21,15 +21,15 @@ Mentor:Neela Santhosh Kumar
 # Modules in the Toolkit
 ****1. Port Scanner****
 
-A. Purpose: Scans a target IP/hostname for open ports.
+A. Purpose:- Scans a target IP/hostname for open ports.
 
-B. Features:
+B. Features:-
 
 o	Uses multithreading for faster scanning.
 
 o	Reports open ports to the user.
 
-C. Workflow:
+C. Workflow:-
 
 o	Takes a target IP/hostname and a list of ports as input.
 
@@ -40,24 +40,24 @@ D. Use Case: Useful for identifying which services are running on a target machi
 
 **2. Brute-Forcer**
 
-A. Purpose: Attempts to crack HTTP Basic Authentication using a username and a password list.
+A. Purpose:- Attempts to crack HTTP Basic Authentication using a username and a password list.
 
-B. Features:
+B. Features:-
 
 o	Automates the brute-forcing process.
 o	Reads passwords from a user-specified file.
 o	Stops the attack as soon as valid credentials are found.
 
-C. Workflow:
+C. Workflow:-
 
 o	Takes a target URL, a username, and a password file as input.
 
 o	Tries each password in the list and checks if the HTTP response indicates successful authentication.
 
-D. Use Case: Useful for testing the strength of passwords used in basic authentication.
+D. Use Case:- Useful for testing the strength of passwords used in basic authentication.
 
 # How the Toolkit Works
-**1.	Toolkit Menu:**
+**1.	Toolkit Menu:-**
 The user interacts with a menu to choose a module:
 
 Option 1: Run the Port Scanner.
@@ -66,31 +66,32 @@ Option 2: Run the Brute-Forcer.
 
 Option 3: Exit the toolkit.
 
-**2.	Port Scanner:**
+**2.	Port Scanner:-**
 
 o	Prompts the user for the target hostname/IP and a list of ports (comma-separated).
 
 o	Concurrently scans each port and reports if it's open.
 
-**3.	Brute-Forcer:**
+**3.	Brute-Forcer:-**
 
 o	Prompts the user for the target URL, a username, and a path to a password file.
 
 o	Reads the password file line-by-line, trying each password for HTTP Basic Authentication.
 
 # Dependencies
-**1.	Python Modules:**
+**1.	Python Modules:-**
 
-o	socket: Used for creating TCP connections in the port scanner.
+o	socket:- Used for creating TCP connections in the port scanner.
 
-o	threading: Enables multithreaded port scanning.
+o	threading:-Enables multithreaded port scanning.
 
-o	requests: Used for sending HTTP requests in the brute-forcer.
+o	requests:-Used for sending HTTP requests in the brute-forcer.
 
-**2.	Input Files:**Password file for the brute-forcer module (plain text file with one password per line).
+**2.	Input Files:-** Password file for the brute-forcer module (plain text file with one password per line).
 
 # Future Enhancements
-1.	Add modules for:
+
+1.	Add modules for:-
 
 a)	SQL Injection testing.
 
