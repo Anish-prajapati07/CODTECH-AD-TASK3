@@ -35,7 +35,7 @@ o	Takes a target IP/hostname and a list of ports as input.
 
 o	Iterates through each port and checks if it is open by attempting a TCP connection.
 
-D. Use Case: Useful for identifying which services are running on a target machine.
+D. Use Case:-Useful for identifying which services are running on a target machine.
 
 
 **2. Brute-Forcer**
