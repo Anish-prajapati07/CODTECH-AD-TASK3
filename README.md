@@ -20,6 +20,7 @@ Mentor:Neela Santhosh Kumar
 
 # Modules in the Toolkit
 ****1. Port Scanner****
+
 A. Purpose: Scans a target IP/hostname for open ports.
 
 B. Features:
@@ -38,6 +39,7 @@ D. Use Case: Useful for identifying which services are running on a target machi
 
 
 **2. Brute-Forcer**
+
 A. Purpose: Attempts to crack HTTP Basic Authentication using a username and a password list.
 
 B. Features:
